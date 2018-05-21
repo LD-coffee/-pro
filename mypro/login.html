@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="top" style="font-size:0;width:100%">
+        <img src="image/login.top.png" alt="">
+    </div>
+    <div class="content">
+        <div class="mainbox" id="login-main">
+            <div class="login-top">
+                <div class="title">账号登陆</div>
+            </div>
+            <div class="login-con">
+                <div>
+                    <div class="login_area">
+                            <div id="error"></div>
+                            <form method="post" onsubmit="return false;">
+                                <p>
+                                    <input placeholder="邮箱/手机号/小米ID" id="username" name="user" type="text" autocomplete="off"/>
+                                </p>
+                                <br/>
+                                <p>
+                                    <input placeholder="密码" id="password" name="password" type="password"/>
+                                </p>
+                                <br/>
+                                <p>
+                                    <input type="button" name="submit" value=" 登录  " id="btn"/>
+                                    <span>没有账号？<a href="register.html">立即注册</a></span>
+                                </p>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="font-size:0;width:100%">
+        <img width="100%" src="image/reg.footer.png" alt="">
+    </div>
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.goodsDatils{
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    .container{
+        width: 1226px;
+        margin:0 auto;
+        .row{
+            margin-left: -14px;
+            .box-left{
+                position: relative;
+                overflow: hidden;
+                width: 792px;
+                float: left;
+                margin-left: 14px;
+                .b-img{
+                    height:500px;
+                    width: 500px;
+                    border:1px solid #000;
+                    .show{
+                        display: block;
+                    }
+                    img{
+                        height:500px;
+                        width: 500px;
+                        display: none;
+                    }
+                }
+                .s-img{
+                    height:80px;
+                    width: 500px;
+                    li{
+                        float: left;
+                        img{
+                            height: 70px;
+                            width: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.clear:after,.clear:before{
+    content:"";
+    display: table;
+}

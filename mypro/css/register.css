@@ -1,0 +1,78 @@
+
+body,html{
+    height: 100%;
+}
+body{
+    background: #f9f9f9;
+    color: #666;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.wrap{
+}
+.layout{
+    width: 854px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.reg{
+    padding-bottom: 30px;
+    border: 0;
+    padding-top: 0;
+    background: #fff;
+    padding: 34px 34px 0;
+    min-height: 400px;
+}
+.logo{
+    padding-bottom: 40px;
+    display: block;
+}
+.milogo{
+    width: 49px;
+    height: 48px;
+    margin:0 auto;
+    display: block;
+    background-image: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png);
+}
+.title{
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    clear: both;
+    text-align: center;
+}
+.title h4{
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+}
+label{
+    display: inline-block;
+    text-align: center;
+    width:70px
+}
+#username,#password{
+    height: 30px;
+    width: 301px;
+}
+.sub{
+    background: #ff6700;
+    margin-top: 15px;
+    border: 1px solid rgba(186,186,186,0.3);
+    color: #fff;
+    width: 200px;
+    height: 42px;
+    margin:0 auto;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+}

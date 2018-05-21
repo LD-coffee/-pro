@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+            <div class="layout">
+                <div id="main_container" class="reg">
+                    <div class="logo">
+                        <a class="milogo"></a>
+                    </div>
+                    <div class="title">
+                        <h4>注册小米账号</h4>
+                    </div>
+                    <div>
+                        <div class="regbox">
+                                        <form action="php/reg.php" method="post">
+                                            <p>
+                                                <label for="user">用户名：</label>
+                                                <input type="text" name="user" id="username"/>
+                                                <span></span>
+                                            </p>
+                                            <br/>
+                                            <p>
+                                                <label for="password">密码：</label>
+                                                <input type="password" name="password" id="password"/>
+                                                <span></span>
+                                            </p>
+                                            <br/>
+                                            <p>
+                                                <input type="submit" value="注册" name="submit" class="sub" />
+                                            </p>
+                                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" style="font-size:0;">
+        <img src="image/reg.footer.png" style="width:100%" alt="">
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

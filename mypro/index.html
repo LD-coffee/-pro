@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+
+<!-- 侧边栏 -->
+    <div class="home-right-bar">
+        <div class="bar-l">
+            <div id="rightbar_l">
+                <div class="bar-top">
+                    <li class="bar-sort bar-qr">
+                        <div class="font">
+                            <span class="iconfont icon-richscan_icon"></span>
+                        </div>
+                        <p class="bar-text">扫一扫</p>
+                    </li>
+                    <li class="bar-sort">
+                        <div class="font">
+                            <span class="iconfont icon-touxiang"></span>
+                        </div>
+                        <p class="bar-text">个人中心</p>
+                    </li>
+                    <li class="bar-sort">
+                        <div class="font">
+                            <span class="iconfont icon-kefu"></span>
+                        </div>
+                        <p class="bar-text"联系客服></p>
+                    </li>
+                    <li class="bar-sort bar-car">
+                        <div class="font">
+                            <span class="iconfont icon-gouwuchekong"></span>
+                        </div>
+                        <p class="bar-text">购物车</p>
+                    </li>
+                </div>
+            </div>
+            <a class="bar-totop" href="">
+                <div class="font">
+                    <span class="iconfont icon-yusan"></span>
+                </div>
+                <p class="bar-text">回到顶部</p>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 顶部导航 -->
+    <div id="nav">
+        <div class="navbar">
+            <div class="nav-box">
+                <ul class="nav-left"  style="display:inline-block">
+                  <li><a href="#" style="padding-left:0">小米商城</a><span>|</span></li>   
+                  <li><a href="#">MIUI</a><span>|</span></li>
+                  <li><a href="#">IoT</a><span>|</span></li>
+                  <li><a href="#">云服务</a><span>|</span></li>
+                  <li><a href="#">水滴</a><span>|</span></li>
+                  <li><a href="#">金融</a><span>|</span></li>
+                  <li><a href="#">有品</a><span>|</span></li>
+                  <li><a href="#">Select Region</a></li>         
+                </ul>
+                <div class="nav-right">
+                    <ul class="nav-rl" style="display:inline-block">
+                        <li><a href="login.html">登录</a><span>|</span></li>
+                        <li><a href="register.html">注册</a></li>
+                    </ul>
+                    <ul class="admin" style="display:none;">
+                            <span></span>
+                            <a href="javascript:;">退出</a>
+                    </ul>
+                    
+                    <li><span>|</span><a href="">消息通知</a></li>
+                    <ul class="nav-shop" style="display:inline-block">
+                        <li><a id="shop" href=""><span class="iconfont icon-gouwuchekong" style="margin-right:5px;font-size:18px;"></span>购物车(<span>0</span>)</span></a>
+                            <div class="shop_con">
+                                <p>购物车中还没有商品，赶紧选购吧！</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 头部 -->
+    <div id="header">
+        <div class="header-box clear">
+            <div class="header-logo">
+                <a class="logo" href="">
+                </a>
+            </div>
+
+
+            <div class="header-nav">
+                <ul class="header-nav-box">
+                    <li class="nav-cate"><a href="" class="link-cate" style="visibility:hidden"><span>全部商品分类</span></a>
+                        <div class="nav-second">
+                            <ul id="second" class="clear">
+                                <li><a href="">手机 电话卡<i class="iconfont icon-jiantou"></i></a>
+                                    <div class="children clear">
+                                        <ul class="children"></ul>
+                                        <ul class="children"></ul>
+                                        <ul class="children"></ul>
+                                    </div>
+                                </li>
+                                <li><a href="">电视 盒子<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">笔记本<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">智能 家电<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">健康 家居<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">出行 儿童<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">路由器 手机配件<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">移动电源 插线板<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">耳机 音箱<i class="iconfont icon-jiantou"></i></a></li>
+                                <li><a href="">生活 米兔<i class="iconfont icon-jiantou"></i></a></li>
+                            </ul>
+                        </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>小米手机</span></a>
+                        <div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list clear">
+                            </ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>红米</span></a><div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list"></ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>电视</span></a><div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list"></ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>笔记本</span></a><div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list"></ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>盒子</span></a><div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list"></ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>新品</span></a><div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list"></ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>路由器</span></a><div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list"></ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>智能硬件</span></a><div class="item-children">
+                        <div class="children-box">
+                            <ul class="children-list"></ul>
+                        </div>
+                    </div></li>
+                    <li class="nav-item"><a class="link" href=""><span>服务</span></a></li>
+                    <li class="nav-item"><a class="link" href=""><span>社区</span></a></li>
+                </ul>
+            </div>
+
+            
+            <div class="header-search">
+                <form class="search-form" action="">
+                    <input class="search-text" type="text">
+                    <input type="button" class="search-btn iconfont icon-search" value="">
+                    <div class="search-hot">
+                        <a href="">小米6s</a>
+                        <a href="">红米note5</a>                     
+                    </div>
+                    <div class="keyword-list">
+                        <ul class="result-list">
+
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 内容 -->
+    <div id="main">
+        <div class="container">
+        <div class="main-top">
+            <div class="slider" style="overflow:hidden">
+                <div class="slider-img">
+                    <img src="https://i1.mifile.cn/a4/xmad_15246478201362_kKxQF.jpg" style="opacity:1;" alt="">
+                    <img src="https://i1.mifile.cn/a4/xmad_15262621679276_AmBdv.jpg" alt="">
+                    <img src="https://i1.mifile.cn/a4/xmad_15260350065386_DWnjt.jpg" alt="">
+                    <img src="https://i1.mifile.cn/a4/xmad_15233543731007_tMnpH.jpg" alt="">
+                    <img src="https://i1.mifile.cn/a4/xmad_15259408612582_TGdhA.jpg" alt="">
+                </div>
+
+                <div class="slider-btn">
+                    <span class="btn-left" href="">&lt;</span>
+                    <span class="btn-right" href="">&gt;</span>
+                </div>
+
+                <ul class="slider-list-box">
+                    <li class="slider-list-btn active"><a href="">1</a></li>
+                    <li class="slider-list-btn"><a href="">2</a></li>
+                    <li class="slider-list-btn"><a href="">3</a></li>
+                    <li class="slider-list-btn"><a href="">4</a></li>
+                    <li class="slider-list-btn"><a href="">5</a></li>
+                </ul>
+            </div>
+
+            <div class="top-sub">
+                <div class="sub-left">
+                    <ul class="sub-list">
+                        <li class="exposure top left">
+                            <a href="">
+                                <i class="iconfont icon-iconset0228"></i>
+                                选购手机
+                            </a>
+                        </li>
+                        <li class="exposure top">
+                            <a href="">
+                                <i class="iconfont icon-lipin"></i>
+                                企业团购
+                            </a>
+                        </li>
+                        <li class="exposure top">
+                            <a href="">
+                                <i class="iconfont icon-gupiao"></i>
+                                F码通道
+                            </a>
+                        </li>
+                        <li class="exposure left">
+                            <a href="">
+                                <i class="iconfont icon-ai-SIM"></i>
+                                米粉卡
+                            </a>
+                        </li>
+                        <li class="exposure">
+                            <a href="">
+                                <i class="iconfont icon-huanyihuan"></i>
+                                以旧换新
+                            </a>
+                        </li>
+                        <li class="exposure">
+                            <a href="">
+                                <i class="iconfont icon-shenghuohuafeichongzhi"></i>
+                                话费充值
+                            </a>
+                        </li>
+                        <div style="clear: both;"></div>
+                    </ul>
+                </div>
+                <div class="sub-right">
+                    <ul class="right-box">
+                        <li class="first"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15249081596681_Jdsgm.jpg" alt=""></a></li>
+                        <li><a href=""><img src="https://i1.mifile.cn/a4/xmad_15260284436204_eSRyN.jpg" alt=""></a></li>
+                        <li><a href=""><img src="https://i1.mifile.cn/a4/xmad_15041689984823_YclCV.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="xm-shangou">
+            <div class="xm-plain-box">
+
+                <div class="box-hd">
+                    <h2 class="title">小米闪购</h2>
+                    <div class="more">
+                        <div class="more-box">
+                            <a class="more-btn more-l iconfont icon-jiantou1"></a>
+                            <a class="more-btn more-r iconfont icon-jiantou"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-bd clear">
+                    <div class="xm-list-time" style="overflow:hidden">
+
+                        <ul class="box-left">
+                            <li>
+                                <div class="timer-title">18:00场</div>
+                                <img src="https://i1.mifile.cn/f/i/2018/mihome/flashpurchase.png" alt="">
+                                <div class="t-sub">距离结束还有</div>
+                                <div class="falshtime clear">
+                                    <div class="box">00</div>
+                                    <div class="dosh">:</div>
+                                    <div class="box">00</div>
+                                    <div class="dosh">:</div>
+                                    <div class="box">00</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="xm-wrapper" style="height:340px;overflow:hidden">
+                            <ul class="wrapper-list clear" style="width:1984px;margin-left:0;">
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemBox">
+            <a href="">
+                <img src="https://i1.mifile.cn/a4/xmad_15257440177829_LmJeQ.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    </div>
+    <!-- page-main -->
+    <div id="page-main">
+        <div class="page-main">
+
+        <!-- 家电 -->
+        <div id="homeelec" class="page_con">
+            <div class="box-hd">
+                <h2 class="title">家电</h2>
+                 <div class="more">
+                     <ul class="tab-list">
+                        <li class="tab-active">热门</li>
+                        <li>电视影音</li>
+                        <li>电脑</li>
+                        <li>家居</li>
+                     </ul>
+                 </div>
+            </div>
+            <div class="box-bd">
+                <div class="row clear">
+                    <div class="box-left">
+                        <ul class="brick-promo-list clear">
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15232552838083_SWVqL.jpg" alt=""></a></li>
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15123939053142_dFlAw.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="box-right">
+                        <div class="tab-cont">
+                            <ul class="tab-content clear">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemBox" style="padding-top:20px;">
+            <a href="">
+                <img src="https://i1.mifile.cn/a4/xmad_15260033096911_WHqSN.jpg" alt="">
+            </a>
+        </div>
+
+        <!-- 智能 -->
+        <div id="smart" class="page_con">
+            <div class="box-hd">
+                <h2 class="title">智能</h2>
+                 <div class="more">
+                     <ul class="tab-list">
+                        <li class="tab-active">热门</li>
+                        <li>出行</li>
+                        <li>健康</li>
+                        <li>酷玩</li>
+                     </ul>
+                 </div>
+            </div>
+            <div class="box-bd">
+                <div class="row clear">
+                    <div class="box-left">
+                        <ul class="brick-promo-list clear">
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15232433421155_vCzhJ.jpg" alt=""></a></li>
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_14950995035103_fhWtH.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="box-right">
+                        <div class="tab-cont">
+                            <ul class="tab-content clear">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemBox" style="padding-top:20px;">
+            <a href="">
+                <img src="https://i1.mifile.cn/a4/xmad_15204799796935_WjnpM.jpg" alt="">
+            </a>
+        </div>
+
+        <!-- 搭配 -->
+        <div id="match" class="page_con">
+            <div class="box-hd">
+                <h2 class="title">搭配</h2>
+                 <div class="more">
+                     <ul class="tab-list">
+                        <li class="tab-active">热门</li>
+                        <li>耳机音箱</li>
+                        <li>电源</li>
+                        <li>电池存储卡</li>
+                     </ul>
+                 </div>
+            </div>
+            <div class="box-bd">
+                <div class="row clear">
+                    <div class="box-left">
+                        <ul class="brick-promo-list clear">
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15232428438404_xqTdS.jpg" alt=""></a></li>
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15227686002753_CSADt.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="box-right">
+                        <div class="tab-cont">
+                            <ul class="tab-content clear">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemBox" style="padding-top:20px;">
+            <a href="">
+                <img src="https://i1.mifile.cn/a4/xmad_15204798088946_YvzWs.jpg" alt="">
+            </a>
+        </div>
+
+        <!-- 配件 -->
+        <div id="accessories" class="page_con">
+            <div class="box-hd">
+                <h2 class="title">配件</h2>
+                 <div class="more">
+                     <ul class="tab-list">
+                        <li class="tab-active">热门</li>
+                        <li>保护套</li>
+                        <li>贴膜</li>
+                        <li>其他配件</li>
+                     </ul>
+                 </div>
+            </div>
+            <div class="box-bd">
+                <div class="row clear">
+                    <div class="box-left">
+                        <ul class="brick-promo-list clear">
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15222058002076_sWEmR.jpg" alt=""></a></li>
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15183545041251_FTsjL.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="box-right">
+                        <div class="tab-cont">
+                            <ul class="tab-content clear">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemBox" style="padding-top:20px;">
+            <a href="">
+                <img src="https://i1.mifile.cn/a4/xmad_15204800720086_TdBPv.jpg" alt="">
+            </a>
+        </div>
+
+
+
+        <div id="homeelec" class="page_con">
+            <div class="box-hd">
+                <h2 class="title">家电</h2>
+                 <div class="more">
+                     <ul class="tab-list">
+                        <li class="tab-active">热门</li>
+                        <li>电视影音</li>
+                        <li>电脑</li>
+                        <li>家居</li>
+                     </ul>
+                 </div>
+            </div>
+            <div class="box-bd">
+                <div class="row clear">
+                    <div class="box-left">
+                        <ul class="brick-promo-list clear">
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15232552838083_SWVqL.jpg" alt=""></a></li>
+                            <li class="brick-item"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15123939053142_dFlAw.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="box-right">
+                        <div class="tab-cont">
+                            <ul class="tab-content clear">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                            <ul class="tab-content clear" style="display:none;">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemBox" style="padding-top:20px;">
+            <a href="">
+                <img src="https://i1.mifile.cn/a4/xmad_15257440177829_LmJeQ.jpg" alt="">
+            </a>
+        </div>
+
+
+
+    </div>
+    </div>
+    
+
+
+    <!-- 网页底部 -->
+    <div id="footer" style="font-size:0;">
+        <img src="image/footer.png" alt="">
+    </div>
+
+    <script src="js/require.js" defer async="true" data-main="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/keyword.js"></script>
+</body>
+</html>

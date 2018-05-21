@@ -1,0 +1,120 @@
+.xm-shangou{
+    position: relative;
+    .box-hd{
+        position: relative;
+        height: 58px;
+        display: block;
+        .title{
+            margin: 0;
+            font-size: 22px;
+            font-weight: 200;
+            line-height: 58px;
+            color: #333;
+        }
+        .more{
+            position: absolute;
+            top: 24px;
+            right: 0;
+            .more-btn{
+                margin-left: -1px;
+                width:24px;
+                height: 16px;
+                padding: 3px 5px;
+                border: 1px solid #e0e0e0;
+                font-size: 16px;
+                line-height: 20px;
+                display: inline-block;
+                text-align: center;
+            }
+            .more-l{
+                position: relative;
+                left: 5px;
+            }
+        }
+    }
+}
+.clear:after,.clear:before{
+    content:"";
+    display: table;
+}
+.box-bd{
+    width: 1226px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 40px;
+    .xm-list-time{
+        height: 340px;
+        width: 1240px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        ul{
+            float: left;
+            width: 234px;
+            margin: 0 14px 0 0;
+            padding: 0;
+            li{
+                border-top:1px solid #e53935;
+                background: #f1eded;
+                text-align: center;
+                height: 300px;
+                padding-top: 39px;
+                float: left;
+                width: 234px;
+                margin-right: 14px;
+                display: list-item;
+                .time-title{
+                    text-align: center;
+                    font-size: 21px;
+                    color: #ef3a3b;
+                    padding-top: 15px;
+                }
+                img{
+                    margin:25px auto;
+                    border: 0;
+                    text-align: center;
+                }
+                .t-sub{
+                    color: rgba(0,0,0,0.54);
+                    font-size: 15px;
+                    text-align: center
+                }
+                .falshtime{
+                    width: 168px;
+                    margin: 28px auto 0;
+                    text-align: center;
+                    .box{
+                        width: 46px;
+                        height: 46px;
+                        background: #605751;
+                        color: #fff;
+                        font-size: 24px;
+                        line-height: 46px;
+                        float: left;
+                    }
+                    .dosh{
+                        width: 15px;
+                        height: 46px;
+                        float: left;
+                        line-height: 46px;
+                        color: #605751;
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+    .wrapper-list{
+        margin: 0;
+        padding: 0;
+        li{
+            position: relative;
+            background: #3f0;
+            height: 300px;
+            padding-top: 39px;
+            border-top: 1px solid;
+            width: 234px;
+        }
+    }
+}

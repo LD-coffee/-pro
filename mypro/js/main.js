@@ -1,0 +1,1 @@
+require(['jquery','jquery.cookie','indexlogin','top','slider','nav1','subnav','pic','pic1','shangou'])
